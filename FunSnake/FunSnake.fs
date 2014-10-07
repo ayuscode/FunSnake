@@ -6,16 +6,16 @@ open FunScript.TypeScript
  
 // ------------------------------------------------------------------
 // Initialization
-type Direction = Left | Right | Up | Down
+type Direction = Left | Right | Up | Down | None
 let sizeLink = 10.
 let canvasSize = (300., 300.)
-let snake = [(10.,sizeLink,sizeLink,sizeLink);(sizeLink,sizeLink,sizeLink,sizeLink);(0.,sizeLink,sizeLink,sizeLink);]
+let snake = [(sizeLink * 5.,sizeLink * 3.0,sizeLink,sizeLink);(sizeLink * 4.,sizeLink * 3.0,sizeLink,sizeLink);(sizeLink * 3.,sizeLink * 3.0,sizeLink,sizeLink);]
 let wallTop   = ([0.0..sizeLink..(fst canvasSize)] |> List.map (fun x-> (x,0.,sizeLink,sizeLink)))
 let wallDown  = ([0.0..sizeLink..(fst canvasSize)] |> List.map (fun x-> (x,(snd canvasSize),sizeLink,sizeLink)))
 let wallLeft  = ([0.0..sizeLink..(snd canvasSize)] |> List.map (fun x-> (0.,x,sizeLink,sizeLink)))
 let wallRight = ([0.0..sizeLink..(snd canvasSize)] |> List.map (fun x-> ((fst canvasSize),x,sizeLink,sizeLink)))
 let wall = wallLeft @ wallTop @ wallRight @ wallDown
-let mutable direction = Right   // Control snake direction
+let mutable direction = None   // Control snake direction
 let mutable moveDone = true     // Avoid direction changes until move has done
  
  
@@ -98,6 +98,7 @@ let rec update snake food () =
                 | Left -> moveLeft snake   food
                 | Up -> moveUp snake       food
                 | Down -> moveDown snake   food
+                | None -> snake
  
     // If snake ate some food generate new random food
     let food = if (snake.Head = food) then newFood snake ()
@@ -111,7 +112,7 @@ let rec update snake food () =
  
     // Snake movement completed
     moveDone <- true
-    
+     
     // If collision, game over, otherwise, continue updating the game
     if collision then 0
                  else Globals.setTimeout(update snake food, 1000. / 10.) |> ignore
@@ -124,10 +125,10 @@ let main() =
     // Capture arrows keys to move the snake
     Globals.window.addEventListener_keydown(fun e -> 
                                                     if moveDone then
-                                                            if e.key = "Left"  && (direction = Up || direction = Down) then direction <- Left
-                                                            if e.key = "Up"    && (direction = Right || direction = Left) then direction <- Up
-                                                            if e.key = "Right" && (direction = Up || direction = Down) then direction <- Right
-                                                            if e.key = "Down"  && (direction = Right || direction = Left) then direction <- Down
+                                                            if e.keyCode = 65. && (direction = None || direction = Up || direction = Down) then direction <- Left
+                                                            if e.keyCode = 87. && (direction = None || direction = Right || direction = Left) then direction <- Up
+                                                            if e.keyCode = 68. && (direction = None || direction = Up || direction = Down) then direction <- Right
+                                                            if e.keyCode = 83. && (direction = None || direction = Right || direction = Left) then direction <- Down
                                                             moveDone <- false
                                                     :> obj
                                            )

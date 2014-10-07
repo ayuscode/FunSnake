@@ -63,6 +63,7 @@
     <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
     <None Include="packages.config" />
     <None Include="FunSnake.html" />
+    <Content Include="FunSnake.js" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FunScript">
