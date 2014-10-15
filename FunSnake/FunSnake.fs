@@ -100,7 +100,7 @@ let draw (snake:(float*float*float*float) List, food:float*float*float*float, ha
     // Draw obstacles
     obstacles |> List.iter (fun x-> 
                             match x with
-                            | x,y,w,h -> ctx.fillStyle <- "black" //defaultGradientLink ctx (x,y,w,h) "black" "white"
+                            | x,y,w,h -> ctx.fillStyle <- "black"
                                          ctx.fillRect(x, y, w, h)
                     ) |> ignore
 
