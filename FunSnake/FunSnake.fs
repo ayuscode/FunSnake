@@ -15,6 +15,7 @@ let wallDown  = ([0.0..sizeLink..(fst canvasSize)] |> List.map (fun x-> (x,(snd 
 let wallLeft  = ([0.0..sizeLink..(snd canvasSize)] |> List.map (fun x-> (0.,x,sizeLink,sizeLink)))
 let wallRight = ([0.0..sizeLink..(snd canvasSize)] |> List.map (fun x-> ((fst canvasSize),x,sizeLink,sizeLink)))
 let wall = wallLeft @ wallTop @ wallRight @ wallDown
+let obstacles = []
 let mutable direction = None   // Control snake direction
 let mutable moveDone = true     // Avoid direction changes until move has done
  
@@ -64,17 +65,23 @@ let moveLeft  snake food = move -sizeLink 0. snake food
 let moveUp    snake food = move 0. -sizeLink snake   food
 let moveDown  snake food = move 0. sizeLink snake  food
  
+// Generate new random position avoiding positions list
+let rec newPosition avoidPositions () = 
+                   let randomPosition = ( (getRandomAbsolute ((fst canvasSize) - sizeLink * 2.) sizeLink) + sizeLink, (getRandomAbsolute ((snd canvasSize) - sizeLink * 2.) sizeLink) + sizeLink, sizeLink, sizeLink)
+                   if avoidPositions |> Contains randomPosition then newPosition avoidPositions ()
+                                                                else randomPosition
+
 // Generate a new random food place (avoid wall & snake position)
-let rec newFood snake () = 
-                    let randomFood = ( (getRandomAbsolute ((fst canvasSize) - sizeLink * 2.) sizeLink) + sizeLink, (getRandomAbsolute ((snd canvasSize) - sizeLink * 2.) sizeLink) + sizeLink, sizeLink, sizeLink)
-                    if snake |> Contains randomFood then newFood snake ()
-                                                    else randomFood
+let rec newFood snake () = newPosition snake ()
+
+// Generate a new random obstacle (avoid snake & food position)
+let rec newObstacle snake food () = newPosition (food :: snake) ()
  
 // Detect snake collision (against wall or itself)
-let hasCollision (snake:(float*float*float*float) List) = wall |> Contains snake.Head || snake.Tail |> Contains snake.Head
+let hasCollision (snake:(float*float*float*float) List) (obstacles:(float*float*float*float) List) = wall |> Contains snake.Head || obstacles |> Contains snake.Head || snake.Tail |> Contains snake.Head 
  
 // Draw snake and food in the canvas
-let draw (snake:(float*float*float*float) List, food:float*float*float*float, hasCollision: bool) =
+let draw (snake:(float*float*float*float) List, food:float*float*float*float, hasCollision: bool, obstacles:(float*float*float*float) List) =
     let canvas = jQuery?canvas.[0] :?> HTMLCanvasElement
     let ctx = canvas.getContext_2d()
     ctx.clearRect(sizeLink, sizeLink, fst canvasSize - (sizeLink), snd canvasSize - (sizeLink)) // Avoid reset the wall
@@ -90,6 +97,13 @@ let draw (snake:(float*float*float*float) List, food:float*float*float*float, ha
                                              ctx.fillRect(x, y, w, h)
                        ) |> ignore
  
+    // Draw obstacles
+    obstacles |> List.iter (fun x-> 
+                            match x with
+                            | x,y,w,h -> ctx.fillStyle <- "black" //defaultGradientLink ctx (x,y,w,h) "black" "white"
+                                         ctx.fillRect(x, y, w, h)
+                    ) |> ignore
+
     // Draw canvas
     ctx.fillStyle <- defaultGradientLink ctx food "rgb(50,165,12)" "white"
     ctx.fillRect(food) |> ignore
@@ -116,7 +130,7 @@ let drawGameOver () =
  
 // ------------------------------------------------------------------
 // Recursive update function that process the game
-let rec update snake food () =
+let rec update snake food obstacles () =
     // Snake position based on cursor direction input
     let snake = match direction with
                 | Right -> moveRight snake food
@@ -125,15 +139,15 @@ let rec update snake food () =
                 | Down  -> moveDown  snake food
                 | None  -> snake
  
-    // If snake ate some food generate new random food
-    let food = if (snake.Head = food) then newFood snake ()
-               else food               
- 
+    // If snake ate some food generate new random food and a new obstacle
+    let food, obstacles = if (snake.Head = food) then newFood snake (), newObstacle snake food () :: obstacles
+                                                 else food, obstacles
+                                                 
     // Detect snake collision        
-    let collision = hasCollision snake
+    let collision = hasCollision snake obstacles
  
-    // Draw snake & food in canvas (collision is use for paint snake in red in case of collision)
-    draw (snake, food, collision) 
+    // Draw snake, food & obstacles in canvas (collision is use for paint snake in red in case of collision)
+    draw (snake, food, collision, obstacles) 
  
     // Snake movement completed
     moveDone <- true
@@ -142,7 +156,7 @@ let rec update snake food () =
     if collision then drawWall wall 
                       drawGameOver()
                       0
-                 else Globals.setTimeout(update snake food, 1000. / 10.) |> ignore
+                 else Globals.setTimeout(update snake food obstacles, 1000. / 10.) |> ignore
                       1
  
 // ------------------------------------------------------------------
@@ -150,6 +164,7 @@ let rec update snake food () =
 let main() = 
     // Capture arrows keys to move the snake
     Globals.window.addEventListener_keydown(fun e -> 
+                                                    Globals.console.log(e.keyCode)
                                                     if moveDone then
                                                             if e.keyCode = 65. && (direction = None || direction = Up || direction = Down) then direction <- Left
                                                             if e.keyCode = 87. && (direction = None || direction = Right || direction = Left) then direction <- Up
@@ -162,5 +177,5 @@ let main() =
     drawWall wall 
  
     // Start the game with basic snake and ramdom food
-    update snake (newFood snake ()) () |> ignore
+    update snake (newFood snake ()) obstacles () |> ignore
 

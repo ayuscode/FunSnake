@@ -1,4 +1,4 @@
-var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Double__Double_, list_1_Tuple_4_Double__Double__Double__Double__ConsTuple_4_Double__Double__Double__Double_, list_1_Double__NilDouble, list_1_Double__ConsDouble, UnfoldEnumerator_2_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double___ctor$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, UnfoldEnumerator_2_Double__Double___ctor$Double_Double, Tuple_4_Double__Double__Double__Double__GeneratedCompareToDouble_Double_Double_Double, TupleTuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, TupleDouble_Double_Double_Double, TupleDouble_Double, Seq__Unfold$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, Seq__Unfold$Double__Double_Double_Double, Seq__ToList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__ToList$Double_Double, Seq__Skip$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__OfList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__FromFactory$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__FromFactory$Double_Double, Seq__FoldIndexedAux$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, Seq__FoldIndexedAux$FSharpList_1_Double__Double_FSharpList_1_Double__Double, Seq__FoldIndexed$Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, Seq__FoldIndexed$Double__FSharpList_1_Double_Double_FSharpList_1_Double_, Seq__Fold$Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, Seq__Fold$Double__FSharpList_1_Double_Double_FSharpList_1_Double_, Seq__Enumerator$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__Enumerator$Double_Double, Range__customStep$Double__Double_Double_Double, Option__IsSome$FSharpList_1_Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double_, Option__IsSome$Double_Double, Option__GetValue$Tuple_2_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_Tuple_2_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, Option__GetValue$Tuple_2_Double__Double_Tuple_2_Double__Double_, Option__GetValue$FSharpList_1_Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double_, Option__GetValue$Double_Double, List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Reverse$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Reverse$Double_Double, List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_, List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__FoldIndexedAux$list_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_list_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, List__FoldIndexedAux$list_1_Tuple_4_Double__Double__Double__Double__Double_list_1_Tuple_4_Double__Double__Double__Double__Double, List__FoldIndexedAux$list_1_Double__Double_list_1_Double__Double, List__FoldIndexedAux$Unit__Tuple_4_Double__Double__Double__Double_Unit__Tuple_4_Double__Double__Double__Double_, List__FoldIndexed$Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_, List__FoldIndexed$Tuple_4_Double__Double__Double__Double__Unit_Tuple_4_Double__Double__Double__Double__Unit_, List__FoldIndexed$Double__list_1_Tuple_4_Double__Double__Double__Double_Double_list_1_Tuple_4_Double__Double__Double__Double_, List__FoldIndexed$Double__list_1_Double_Double_list_1_Double_, List__Fold$Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_, List__Fold$Tuple_4_Double__Double__Double__Double__Unit_Tuple_4_Double__Double__Double__Double__Unit_, List__Fold$Double__list_1_Tuple_4_Double__Double__Double__Double_Double_list_1_Tuple_4_Double__Double__Double__Double_, List__Fold$Double__list_1_Double_Double_list_1_Double_, List__Exists$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Empty$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Empty$Double_Double, List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__CreateCons$Double_Double, List__Append$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, LanguagePrimitives__UnboxGeneric$HTMLCanvasElement_HTMLCanvasElement_, GenericConstants__Zero$Double_Double, FunSnake__wallTop, FunSnake__wallRight, FunSnake__wallLeft, FunSnake__wallDown, FunSnake__wall, FunSnake__update$, FunSnake__snake, FunSnake__sizeLink, FunSnake__op_Dynamic$JQuery_JQuery_, FunSnake__newFood$, FunSnake__moveUp$Double__Double_Double_Double, FunSnake__moveRight$Double__Double_Double_Double, FunSnake__moveLeft$Double__Double_Double_Double, FunSnake__moveDown$Double__Double_Double_Double, FunSnake__moveDone, FunSnake__move$Double__Double_Double_Double, FunSnake__main$, FunSnake__jQuery$, FunSnake__hasCollision$, FunSnake__get_wallTop$, FunSnake__get_wallRight$, FunSnake__get_wallLeft$, FunSnake__get_wallDown$, FunSnake__get_wall$, FunSnake__get_snake$, FunSnake__get_sizeLink$, FunSnake__get_moveDone$, FunSnake__get_direction$, FunSnake__get_canvasSize$, FunSnake__getRandomAbsolute$, FunSnake__getColorLink$, FunSnake__drawWall$, FunSnake__drawGameOver$, FunSnake__draw$, FunSnake__direction, FunSnake__defaultGradientLink$, FunSnake__canvasSize, FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Direction__Up, Direction__Right, Direction__None, Direction__Left, Direction__GeneratedCompareTo, Direction__Down, CreateEnumerable_1_Tuple_4_Double__Double__Double__Double___ctor$Tuple_4_Double__Double__Double__Double_, CreateEnumerable_1_Double___ctor$Double;
+var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Double__Double_, list_1_Tuple_4_Double__Double__Double__Double__ConsTuple_4_Double__Double__Double__Double_, list_1_Double__NilDouble, list_1_Double__ConsDouble, UnfoldEnumerator_2_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double___ctor$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, UnfoldEnumerator_2_Double__Double___ctor$Double_Double, Tuple_4_Double__Double__Double__Double__GeneratedCompareToDouble_Double_Double_Double, TupleTuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, TupleDouble_Double_Double_Double, TupleDouble_Double, Seq__Unfold$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, Seq__Unfold$Double__Double_Double_Double, Seq__ToList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__ToList$Double_Double, Seq__Skip$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__OfList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__FromFactory$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__FromFactory$Double_Double, Seq__FoldIndexedAux$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, Seq__FoldIndexedAux$FSharpList_1_Double__Double_FSharpList_1_Double__Double, Seq__FoldIndexed$Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, Seq__FoldIndexed$Double__FSharpList_1_Double_Double_FSharpList_1_Double_, Seq__Fold$Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, Seq__Fold$Double__FSharpList_1_Double_Double_FSharpList_1_Double_, Seq__Enumerator$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Seq__Enumerator$Double_Double, Range__customStep$Double__Double_Double_Double, Option__IsSome$FSharpList_1_Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double_, Option__IsSome$Double_Double, Option__GetValue$Tuple_2_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_Tuple_2_Tuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_, Option__GetValue$Tuple_2_Double__Double_Tuple_2_Double__Double_, Option__GetValue$FSharpList_1_Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double_, Option__GetValue$Double_Double, List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Reverse$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Reverse$Double_Double, List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_, List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__FoldIndexedAux$list_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_list_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_, List__FoldIndexedAux$list_1_Tuple_4_Double__Double__Double__Double__Double_list_1_Tuple_4_Double__Double__Double__Double__Double, List__FoldIndexedAux$list_1_Double__Double_list_1_Double__Double, List__FoldIndexedAux$Unit__Tuple_4_Double__Double__Double__Double_Unit__Tuple_4_Double__Double__Double__Double_, List__FoldIndexed$Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_, List__FoldIndexed$Tuple_4_Double__Double__Double__Double__Unit_Tuple_4_Double__Double__Double__Double__Unit_, List__FoldIndexed$Double__list_1_Tuple_4_Double__Double__Double__Double_Double_list_1_Tuple_4_Double__Double__Double__Double_, List__FoldIndexed$Double__list_1_Double_Double_list_1_Double_, List__Fold$Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double__list_1_Tuple_4_Double__Double__Double__Double_, List__Fold$Tuple_4_Double__Double__Double__Double__Unit_Tuple_4_Double__Double__Double__Double__Unit_, List__Fold$Double__list_1_Tuple_4_Double__Double__Double__Double_Double_list_1_Tuple_4_Double__Double__Double__Double_, List__Fold$Double__list_1_Double_Double_list_1_Double_, List__Exists$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Empty$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__Empty$Double_Double, List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, List__CreateCons$Double_Double, List__Append$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, LanguagePrimitives__UnboxGeneric$HTMLCanvasElement_HTMLCanvasElement_, GenericConstants__Zero$Double_Double, FunSnake__wallTop, FunSnake__wallRight, FunSnake__wallLeft, FunSnake__wallDown, FunSnake__wall, FunSnake__update$, FunSnake__snake, FunSnake__sizeLink, FunSnake__op_Dynamic$JQuery_JQuery_, FunSnake__obstacles$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, FunSnake__newPosition$, FunSnake__newObstacle$, FunSnake__newFood$, FunSnake__moveUp$Double__Double_Double_Double, FunSnake__moveRight$Double__Double_Double_Double, FunSnake__moveLeft$Double__Double_Double_Double, FunSnake__moveDown$Double__Double_Double_Double, FunSnake__moveDone, FunSnake__move$Double__Double_Double_Double, FunSnake__main$, FunSnake__jQuery$, FunSnake__hasCollision$, FunSnake__get_wallTop$, FunSnake__get_wallRight$, FunSnake__get_wallLeft$, FunSnake__get_wallDown$, FunSnake__get_wall$, FunSnake__get_snake$, FunSnake__get_sizeLink$, FunSnake__get_moveDone$, FunSnake__get_direction$, FunSnake__get_canvasSize$, FunSnake__getRandomAbsolute$, FunSnake__getColorLink$, FunSnake__drawWall$, FunSnake__drawGameOver$, FunSnake__draw$, FunSnake__direction, FunSnake__defaultGradientLink$, FunSnake__canvasSize, FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_, Direction__Up, Direction__Right, Direction__None, Direction__Left, Direction__GeneratedCompareTo, Direction__Down, CreateEnumerable_1_Tuple_4_Double__Double__Double__Double___ctor$Tuple_4_Double__Double__Double__Double_, CreateEnumerable_1_Double___ctor$Double;
   CreateEnumerable_1_Double___ctor$Double = (function (factory)
   {
     this.factory = factory;
@@ -157,16 +157,16 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   });
   FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (e, el)
   {
-    var _683;
+    var _688;
     var predicate = (function (x)
     {
       return (Tuple_4_Double__Double__Double__Double__GeneratedCompareToDouble_Double_Double_Double(x)(e) == 0);
     });
-    _683 = (function (list)
+    _688 = (function (list)
     {
       return List__Exists$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(predicate, list);
     });
-    return _683(el);
+    return _688(el);
   });
   FunSnake__defaultGradientLink$ = (function (ctx, link_0, link_1, link_2, link_3, colorStart, colorEnd)
   {
@@ -180,7 +180,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     (gradient.addColorStop(1.000000, colorEnd));
     return gradient;
   });
-  FunSnake__draw$ = (function (snake, food, hasCollision)
+  FunSnake__draw$ = (function (snake, food, hasCollision, obstacles)
   {
     var canvas = LanguagePrimitives__UnboxGeneric$HTMLCanvasElement_HTMLCanvasElement_((FunSnake__op_Dynamic$JQuery_JQuery_((function (selector)
     {
@@ -188,7 +188,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     }), "canvas")[0]));
     var ctx = (canvas.getContext("2d"));
     (ctx.clearRect(FunSnake__sizeLink, FunSnake__sizeLink, (FunSnake__canvasSize.Items[0.000000] - FunSnake__sizeLink), (FunSnake__canvasSize.Items[1.000000] - FunSnake__sizeLink)));
-    var _1209;
+    var _1264;
     var tupledArg = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
     var colorStart = "rgb(184,7,7)";
     var colorEnd = "white";
@@ -196,8 +196,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     var arg11_ = tupledArg.Items[1.000000];
     var arg12_ = tupledArg.Items[2.000000];
     var arg13_ = tupledArg.Items[3.000000];
-    _1209 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
-    var _1276;
+    _1264 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
+    var _1331;
     var tupledArg = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
     var colorStart = "rgb(184,7,7)";
     var colorEnd = "white";
@@ -205,8 +205,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     var arg11_ = tupledArg.Items[1.000000];
     var arg12_ = tupledArg.Items[2.000000];
     var arg13_ = tupledArg.Items[3.000000];
-    _1276 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
-    (ctx.fillStyle) = _1209;
+    _1331 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
+    (ctx.fillStyle) = _1264;
     null;
     (function (_tupledArg)
     {
@@ -216,8 +216,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       var arg03 = _tupledArg.Items[3.000000];
       return (ctx.fillRect(arg00, arg01, arg02, arg03));
     })(List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
-    var _1316;
-    var _1317;
+    var _1371;
+    var _1372;
     var action = (function (x)
     {
       var y = x.Items[1.000000];
@@ -228,32 +228,53 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       null;
       return (ctx.fillRect(_x, y, w, h));
     });
-    _1317 = (function (list)
+    _1372 = (function (list)
     {
       return List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(action, list);
     });
-    _1316 = _1317(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
+    _1371 = _1372(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
     (function (value)
     {
       var ignored0 = value;
-    })(_1316);
-    var _1396;
+    })(_1371);
+    var _1453;
+    var _1454;
+    var _action = (function (x)
+    {
+      var y = x.Items[1.000000];
+      var _x = x.Items[0.000000];
+      var w = x.Items[2.000000];
+      var h = x.Items[3.000000];
+      (ctx.fillStyle) = "black";
+      null;
+      return (ctx.fillRect(_x, y, w, h));
+    });
+    _1454 = (function (list)
+    {
+      return List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(_action, list);
+    });
+    _1453 = _1454(obstacles);
+    (function (value)
+    {
+      var ignored0 = value;
+    })(_1453);
+    var _1477;
     var _colorStart = "rgb(50,165,12)";
     var _colorEnd = "white";
     var _arg10_ = food.Items[0.000000];
     var _arg11_ = food.Items[1.000000];
     var _arg12_ = food.Items[2.000000];
     var _arg13_ = food.Items[3.000000];
-    _1396 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
-    var _1415;
+    _1477 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
+    var _1496;
     var _colorStart = "rgb(50,165,12)";
     var _colorEnd = "white";
     var _arg10_ = food.Items[0.000000];
     var _arg11_ = food.Items[1.000000];
     var _arg12_ = food.Items[2.000000];
     var _arg13_ = food.Items[3.000000];
-    _1415 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
-    (ctx.fillStyle) = _1396;
+    _1496 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
+    (ctx.fillStyle) = _1477;
     null;
     return (function (value)
     {
@@ -291,8 +312,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       return FunSnake__jQuery$(selector);
     }), "canvas")[0]));
     var ctx = (canvas.getContext("2d"));
-    var _543;
-    var _544;
+    var _546;
+    var _547;
     var action = (function (x)
     {
       (ctx.fillStyle) = "black";
@@ -303,15 +324,15 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       var h = x.Items[3.000000];
       return (ctx.fillRect(_x, y, w, h));
     });
-    _544 = (function (list)
+    _547 = (function (list)
     {
       return List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(action, list);
     });
-    _543 = _544(wall);
+    _546 = _547(wall);
     return (function (value)
     {
       var ignored0 = value;
-    })(_543);
+    })(_546);
   });
   FunSnake__getColorLink$ = (function (ctx, link_0, link_1, link_2, link_3, collision, aliveColor, collisionColor)
   {
@@ -365,75 +386,86 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   });
   FunSnake__get_wallDown$ = (function ()
   {
-    var _497;
+    var _500;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(x, FunSnake__canvasSize.Items[1.000000], FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _497 = (function (list)
+    _500 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _497(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
+    return _500(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
   });
   FunSnake__get_wallLeft$ = (function ()
   {
-    var _153;
+    var _156;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(0.000000, x, FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _153 = (function (list)
+    _156 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _153(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
+    return _156(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
   });
   FunSnake__get_wallRight$ = (function ()
   {
-    var _473;
+    var _476;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(FunSnake__canvasSize.Items[0.000000], x, FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _473 = (function (list)
+    _476 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _473(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
+    return _476(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
   });
   FunSnake__get_wallTop$ = (function ()
   {
-    var _448;
+    var _451;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(x, 0.000000, FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _448 = (function (list)
+    _451 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _448(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
+    return _451(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
   });
-  FunSnake__hasCollision$ = (function (snake)
+  FunSnake__hasCollision$ = (function (snake, obstacles)
   {
-    var _1168;
-    var _1169;
+    var _1214;
+    var _1215;
+    var _1216;
     var e = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
-    _1169 = (function (el)
+    _1216 = (function (el)
     {
       return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(e, el);
     });
-    _1168 = _1169(FunSnake__wall);
-    return (_1168 || (function ()
+    _1215 = _1216(FunSnake__wall);
+    _1214 = (_1215 || (function ()
     {
-      var _1176;
+      var _1223;
       var _e = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
-      _1176 = (function (el)
+      _1223 = (function (el)
       {
         return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(_e, el);
       });
-      return _1176(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
+      return _1223(obstacles);
+    })());
+    return (_1214 || (function ()
+    {
+      var _1230;
+      var _e = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
+      _1230 = (function (el)
+      {
+        return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(_e, el);
+      });
+      return _1230(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
     })());
   });
   FunSnake__jQuery$ = (function (selector)
@@ -444,6 +476,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   {
     ((window.window).addEventListener("keydown", (function (e)
     {
+      ((window.console).log((e.keyCode)));
       if (FunSnake__moveDone) 
       {
         if ((((e.keyCode) == 65.000000) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)))) 
@@ -486,22 +519,23 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       };
     })));
     FunSnake__drawWall$(FunSnake__wall);
-    var _605;
-    var _606;
-    var _646;
-    _606 = FunSnake__newFood$(FunSnake__snake, _646);
-    var tupledArg = _606;
-    var _744;
-    var arg20_ = _744;
+    var _608;
+    var _609;
+    var _649;
+    _609 = FunSnake__newFood$(FunSnake__snake, _649);
+    var tupledArg = _609;
+    var obstacles = FunSnake__obstacles$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_();
+    var _750;
+    var arg30_ = _750;
     var arg10_ = tupledArg.Items[0.000000];
     var arg11_ = tupledArg.Items[1.000000];
     var arg12_ = tupledArg.Items[2.000000];
     var arg13_ = tupledArg.Items[3.000000];
-    _605 = FunSnake__update$(FunSnake__snake, arg10_, arg11_, arg12_, arg13_, arg20_);
+    _608 = FunSnake__update$(FunSnake__snake, arg10_, arg11_, arg12_, arg13_, obstacles, arg30_);
     return (function (value)
     {
       var ignored0 = value;
-    })(_605);
+    })(_608);
   });
   FunSnake__move$Double__Double_Double_Double = (function (xMove, yMove, snake, food_0, food_1, food_2, food_3)
   {
@@ -519,30 +553,30 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       }
       else
       {
-        var _857;
-        var _858;
-        var _862;
-        var _934;
-        var _935;
+        var _864;
+        var _865;
+        var _869;
+        var _941;
+        var _942;
         var count = 1;
-        _935 = (function (source)
+        _942 = (function (source)
         {
           return Seq__Skip$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(count, Seq__OfList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(source));
         });
-        _934 = _935((function (list)
+        _941 = _942((function (list)
         {
           return List__Reverse$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(list);
         })(snake));
-        _862 = (function (source)
+        _869 = (function (source)
         {
           return Seq__ToList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(source);
-        })(_934);
-        _858 = (function (list)
+        })(_941);
+        _865 = (function (list)
         {
           return List__Reverse$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(list);
-        })(_862);
-        _857 = _858;
-        return List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(newHead, _857);
+        })(_869);
+        _864 = _865;
+        return List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(newHead, _864);
       };
     }
     else
@@ -594,35 +628,50 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   });
   FunSnake__newFood$ = (function (snake, unitVar1)
   {
-    var randomFood = (new TupleDouble_Double_Double_Double((FunSnake__getRandomAbsolute$((FunSnake__canvasSize.Items[0.000000] - (FunSnake__sizeLink * 2.000000)), FunSnake__sizeLink) + FunSnake__sizeLink), (FunSnake__getRandomAbsolute$((FunSnake__canvasSize.Items[1.000000] - (FunSnake__sizeLink * 2.000000)), FunSnake__sizeLink) + FunSnake__sizeLink), FunSnake__sizeLink, FunSnake__sizeLink));
+    var _651;
+    return FunSnake__newPosition$(snake, _651);
+  });
+  FunSnake__newObstacle$ = (function (snake, food_0, food_1, food_2, food_3, unitVar2)
+  {
+    var food = (new TupleDouble_Double_Double_Double(food_0, food_1, food_2, food_3));
+    var _1202;
+    return FunSnake__newPosition$(List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(food, snake), _1202);
+  });
+  FunSnake__newPosition$ = (function (avoidPositions, unitVar1)
+  {
+    var randomPosition = (new TupleDouble_Double_Double_Double((FunSnake__getRandomAbsolute$((FunSnake__canvasSize.Items[0.000000] - (FunSnake__sizeLink * 2.000000)), FunSnake__sizeLink) + FunSnake__sizeLink), (FunSnake__getRandomAbsolute$((FunSnake__canvasSize.Items[1.000000] - (FunSnake__sizeLink * 2.000000)), FunSnake__sizeLink) + FunSnake__sizeLink), FunSnake__sizeLink, FunSnake__sizeLink));
     if ((function (el)
     {
-      return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(randomFood, el);
-    })(snake)) 
+      return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(randomPosition, el);
+    })(avoidPositions)) 
     {
-      var _743;
-      return FunSnake__newFood$(snake, _743);
+      var _748;
+      return FunSnake__newPosition$(avoidPositions, _748);
     }
     else
     {
-      return randomFood;
+      return randomPosition;
     };
+  });
+  FunSnake__obstacles$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function ()
+  {
+    return List__Empty$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_();
   });
   FunSnake__op_Dynamic$JQuery_JQuery_ = (function (jq, name)
   {
     return jq(("#" + name));
   });
-  FunSnake__update$ = (function (snake, food_0, food_1, food_2, food_3, unitVar2)
+  FunSnake__update$ = (function (snake, food_0, food_1, food_2, food_3, obstacles, unitVar3)
   {
     var food = (new TupleDouble_Double_Double_Double(food_0, food_1, food_2, food_3));
-    var _764;
+    var _771;
     if ((FunSnake__direction.Tag == 0.000000)) 
     {
       var arg10_ = food.Items[0.000000];
       var arg11_ = food.Items[1.000000];
       var arg12_ = food.Items[2.000000];
       var arg13_ = food.Items[3.000000];
-      _764 = FunSnake__moveLeft$Double__Double_Double_Double(snake, arg10_, arg11_, arg12_, arg13_);
+      _771 = FunSnake__moveLeft$Double__Double_Double_Double(snake, arg10_, arg11_, arg12_, arg13_);
     }
     else
     {
@@ -632,7 +681,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
         var _arg11_ = food.Items[1.000000];
         var _arg12_ = food.Items[2.000000];
         var _arg13_ = food.Items[3.000000];
-        _764 = FunSnake__moveUp$Double__Double_Double_Double(snake, _arg10_, _arg11_, _arg12_, _arg13_);
+        _771 = FunSnake__moveUp$Double__Double_Double_Double(snake, _arg10_, _arg11_, _arg12_, _arg13_);
       }
       else
       {
@@ -642,13 +691,13 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           var __arg11_ = food.Items[1.000000];
           var __arg12_ = food.Items[2.000000];
           var __arg13_ = food.Items[3.000000];
-          _764 = FunSnake__moveDown$Double__Double_Double_Double(snake, __arg10_, __arg11_, __arg12_, __arg13_);
+          _771 = FunSnake__moveDown$Double__Double_Double_Double(snake, __arg10_, __arg11_, __arg12_, __arg13_);
         }
         else
         {
           if ((FunSnake__direction.Tag == 4.000000)) 
           {
-            _764 = snake;
+            _771 = snake;
           }
           else
           {
@@ -656,25 +705,41 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
             var ___arg11_ = food.Items[1.000000];
             var ___arg12_ = food.Items[2.000000];
             var ___arg13_ = food.Items[3.000000];
-            _764 = FunSnake__moveRight$Double__Double_Double_Double(snake, ___arg10_, ___arg11_, ___arg12_, ___arg13_);
+            _771 = FunSnake__moveRight$Double__Double_Double_Double(snake, ___arg10_, ___arg11_, ___arg12_, ___arg13_);
           };
         };
       };
     };
-    var _snake = _764;
-    var _1154;
+    var _snake = _771;
+    var _1161;
     if ((Tuple_4_Double__Double__Double__Double__GeneratedCompareToDouble_Double_Double_Double(List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(_snake))(food) == 0)) 
     {
-      var _1165;
-      _1154 = FunSnake__newFood$(_snake, _1165);
+      var _1171;
+      var _1173;
+      _1171 = FunSnake__newFood$(_snake, _1173);
+      var _1174;
+      var _1175;
+      var _1176;
+      var _1177;
+      var arg20_ = _1177;
+      var ____arg10_ = food.Items[0.000000];
+      var ____arg11_ = food.Items[1.000000];
+      var ____arg12_ = food.Items[2.000000];
+      var ____arg13_ = food.Items[3.000000];
+      _1176 = FunSnake__newObstacle$(_snake, ____arg10_, ____arg11_, ____arg12_, ____arg13_, arg20_);
+      _1175 = _1176;
+      _1174 = List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(_1175, obstacles);
+      _1161 = (new TupleTuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_(_1171, _1174));
     }
     else
     {
-      _1154 = food;
+      _1161 = (new TupleTuple_4_Double__Double__Double__Double__FSharpList_1_Tuple_4_Double__Double__Double__Double_(food, obstacles));
     };
-    var _food = _1154;
-    var collision = FunSnake__hasCollision$(_snake);
-    FunSnake__draw$(_snake, _food, collision);
+    var patternInput = _1161;
+    var _obstacles = patternInput.Items[1.000000];
+    var _food = patternInput.Items[0.000000];
+    var collision = FunSnake__hasCollision$(_snake, _obstacles);
+    FunSnake__draw$(_snake, _food, collision, _obstacles);
     FunSnake__moveDone = true;
     if (collision) 
     {
@@ -684,21 +749,21 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     }
     else
     {
-      var _1493;
-      var _1494;
-      var ____arg10_ = _food.Items[0.000000];
-      var ____arg11_ = _food.Items[1.000000];
-      var ____arg12_ = _food.Items[2.000000];
-      var ____arg13_ = _food.Items[3.000000];
-      _1494 = (function (arg20_)
+      var _1574;
+      var _1575;
+      var _____arg10_ = _food.Items[0.000000];
+      var _____arg11_ = _food.Items[1.000000];
+      var _____arg12_ = _food.Items[2.000000];
+      var _____arg13_ = _food.Items[3.000000];
+      _1575 = (function (arg30_)
       {
-        return FunSnake__update$(_snake, ____arg10_, ____arg11_, ____arg12_, ____arg13_, arg20_);
+        return FunSnake__update$(_snake, _____arg10_, _____arg11_, _____arg12_, _____arg13_, _obstacles, arg30_);
       });
-      _1493 = (window.setTimeout(_1494, (1000.000000 / 10.000000)));
+      _1574 = (window.setTimeout(_1575, (1000.000000 / 10.000000)));
       (function (value)
       {
         var ignored0 = value;
-      })(_1493);
+      })(_1574);
       return 1;
     };
   });
@@ -881,14 +946,14 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   });
   List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (f, xs)
   {
-    var _569;
+    var _572;
     return List__Fold$Tuple_4_Double__Double__Double__Double__Unit_Tuple_4_Double__Double__Double__Double__Unit_((function (unitVar0)
     {
       return (function (x)
       {
         return f(x);
       });
-    }), _569, xs);
+    }), _572, xs);
   });
   List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_ = (function (f, xs)
   {
@@ -964,7 +1029,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   Range__customStep$Double__Double_Double_Double = (function (first, stepping, last)
   {
     var zero = GenericConstants__Zero$Double_Double();
-    var _254;
+    var _257;
     var f = (function (x)
     {
       if ((((stepping > zero) && (x <= last)) || ((stepping < zero) && (x >= last)))) 
@@ -976,11 +1041,11 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
         return {Tag: 0.000000};
       };
     });
-    _254 = (function (seed)
+    _257 = (function (seed)
     {
       return Seq__Unfold$Double__Double_Double_Double(f, seed);
     });
-    return _254(first);
+    return _257(first);
   });
   Seq__Enumerator$Double_Double = (function (xs)
   {
@@ -1058,8 +1123,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     {
       return (function (__, unitVar1)
       {
-        var _333;
-        return __.factory(_333);
+        var _336;
+        return __.factory(_336);
       })(impl, unitVar1);
     })};
   });
@@ -1071,14 +1136,14 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     {
       return (function (__, unitVar1)
       {
-        var _1024;
-        return __.factory(_1024);
+        var _1031;
+        return __.factory(_1031);
       })(impl, unitVar1);
     })};
   });
   Seq__OfList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (xs)
   {
-    var _942;
+    var _949;
     var f = (function (_arg1)
     {
       if ((_arg1.Tag == 1.000000)) 
@@ -1092,18 +1157,18 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
         return {Tag: 0.000000};
       };
     });
-    _942 = (function (seed)
+    _949 = (function (seed)
     {
       return Seq__Unfold$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_(f, seed);
     });
-    return _942(xs);
+    return _949(xs);
   });
   Seq__Skip$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (n, xs)
   {
     return Seq__FromFactory$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_((function (unitVar0)
     {
       var _enum = Seq__Enumerator$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(xs);
-      for (var _1038 = 1; _1038 <= n; _1038++)
+      for (var _1045 = 1; _1045 <= n; _1045++)
       {
         (function (i)
         {
@@ -1111,7 +1176,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           {
             var ignored0 = value;
           })(_enum.MoveNext());
-        })(_1038);
+        })(_1045);
       };
       return _enum;
     }));
@@ -1185,8 +1250,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           });
           return (Option__IsSome$Double_Double(__.acc) && (function ()
           {
-            var _312;
-            return next(_312);
+            var _315;
+            return next(_315);
           })());
         })(impl, unitVar1);
       }), Reset: (function (unitVar1)
@@ -1242,8 +1307,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           });
           return (Option__IsSome$FSharpList_1_Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double_(__.acc) && (function ()
           {
-            var _1003;
-            return next(_1003);
+            var _1010;
+            return next(_1010);
           })());
         })(impl, unitVar1);
       }), Reset: (function (unitVar1)
