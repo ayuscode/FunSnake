@@ -9,19 +9,10 @@
         {
             FunSnake__main$();
 
-            document.addEventListener('keydown', function (event) {
-                    console.log('keydown');
-            }, false);
-
-
-            // Avoid resize canvas
-            //$("#canvas").height($(window).height() - 100);
-            //$("#canvas").width($(window).width() - 100);
-
-            //$(window).resize(function () {
-            //    $("#canvas").height($(window).height() - 100);
-            //    $("#canvas").width($(window).width() - 100);
-            //});
+            // Hack for support touch event in chromes & iOS
+            document.getElementById("canvas").addEventListener("touchstart", (function (e) {
+                FunSnake__touch = (new TupleDouble_Double(e.touches[0].pageX - e.target.offsetLeft, e.touches[0].pageY - e.target.offsetTop));
+            }));
 
         });
     </script>

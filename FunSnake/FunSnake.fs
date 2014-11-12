@@ -16,8 +16,9 @@ let wallLeft  = ([0.0..sizeLink..(snd canvasSize)] |> List.map (fun x-> (0.,x,si
 let wallRight = ([0.0..sizeLink..(snd canvasSize)] |> List.map (fun x-> ((fst canvasSize),x,sizeLink,sizeLink)))
 let wall = wallLeft @ wallTop @ wallRight @ wallDown
 let obstacles = []
-let mutable direction = None   // Control snake direction
+let mutable direction = None    // Control snake direction
 let mutable moveDone = true     // Avoid direction changes until move has done
+let mutable touch = (-1.,-1.)   // Touch pointer control
  
  
 // ------------------------------------------------------------------
@@ -130,7 +131,23 @@ let drawGameOver () =
  
 // ------------------------------------------------------------------
 // Recursive update function that process the game
-let rec update snake food obstacles () =
+let rec update (snake:(float*float*float*float) List) food obstacles () =
+
+    // Determine the movement based on the position of the snake's head and the touch position (if touch control) 
+    let sx,sy,_,_ = snake.Head 
+    direction <- match touch with 
+                    | (-1.,-1.) -> direction 
+                    | ( x , y ) when y < sy && (direction = None || direction = Left || direction = Right) -> Up 
+                    | ( x , y ) when y > sy && (direction = None || direction = Left || direction = Right) -> Down 
+                    | ( x , y ) when x < sx && (direction = None || direction = Up || direction = Down) -> Left 
+                    | ( x , y ) when x > sx && (direction = None || direction = Up || direction = Down) -> Right 
+                    | (_,_) -> direction 
+
+
+    // Reset touch position 
+    touch <- (-1.,-1.) 
+
+
     // Snake position based on cursor direction input
     let snake = match direction with
                 | Right -> moveRight snake food
@@ -173,6 +190,13 @@ let main() =
                                                             moveDone <- false
                                                     :> obj
                                            )
+    // Capture MSPointerDown event for IE to move the snake (touch events for Chrome & iOS are in the html code) 
+    let canvas = jQuery?canvas.[0] :?> HTMLCanvasElement
+    canvas.addEventListener("pointerdown", fun e ->  
+                                                            let ev = e :?> FunScript.TypeScript.MSPointerEvent
+                                                            touch <- (ev.pageX - canvas.offsetLeft, ev.pageY - canvas.offsetTop) 
+                                                            ) 
+
     // Draw the walls only once
     drawWall wall 
  
