@@ -10,9 +10,11 @@
             FunSnake__main$();
 
             // Hack for support touch event in chromes & iOS
-            ((window.window).addEventListener("touchstart", (function (e) {
-                FunSnake__touch = (new TupleDouble_Double((e.touches[0].pageX), (e.touches[0].pageY)));
-            })));
+            document.getElementById("canvas").addEventListener("touchstart", (function (e) {
+                FunSnake__touch = (new TupleDouble_Double(e.touches[0].pageX - e.target.offsetLeft, e.touches[0].pageY - e.target.offsetTop));
+            }));
+
+
         });
     </script>
 </head>

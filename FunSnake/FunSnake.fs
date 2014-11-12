@@ -176,9 +176,10 @@ let main() =
                                            )
 
     // Capture MSPointerDown event for IE to move the snake (touch events for Chrome & iOS are in the html code)
-    Globals.window.addEventListener("pointerdown", fun e -> 
+    let canvas = jQuery?canvas.[0] :?> HTMLCanvasElement
+    canvas.addEventListener("pointerdown", fun e ->  
                                                             let ev = e :?> FunScript.TypeScript.MSPointerEvent
-                                                            touch <- (ev.pageX, ev.pageY)
+                                                            touch <- (ev.pageX - canvas.offsetLeft, ev.pageY - canvas.offsetTop) 
                                                             )
 
     // Draw the walls only once

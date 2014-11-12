@@ -157,16 +157,16 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   });
   FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (e, el)
   {
-    var _696;
+    var _710;
     var predicate = (function (x)
     {
       return (Tuple_4_Double__Double__Double__Double__GeneratedCompareToDouble_Double_Double_Double(x)(e) == 0);
     });
-    _696 = (function (list)
+    _710 = (function (list)
     {
       return List__Exists$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(predicate, list);
     });
-    return _696(el);
+    return _710(el);
   });
   FunSnake__defaultGradientLink$ = (function (ctx, link_0, link_1, link_2, link_3, colorStart, colorEnd)
   {
@@ -188,7 +188,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     }), "canvas")[0]));
     var ctx = (canvas.getContext("2d"));
     (ctx.clearRect(FunSnake__sizeLink, FunSnake__sizeLink, (FunSnake__canvasSize.Items[0.000000] - FunSnake__sizeLink), (FunSnake__canvasSize.Items[1.000000] - FunSnake__sizeLink)));
-    var _1497;
+    var _1511;
     var tupledArg = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
     var colorStart = "rgb(184,7,7)";
     var colorEnd = "white";
@@ -196,8 +196,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     var arg11_ = tupledArg.Items[1.000000];
     var arg12_ = tupledArg.Items[2.000000];
     var arg13_ = tupledArg.Items[3.000000];
-    _1497 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
-    var _1564;
+    _1511 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
+    var _1578;
     var tupledArg = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
     var colorStart = "rgb(184,7,7)";
     var colorEnd = "white";
@@ -205,8 +205,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     var arg11_ = tupledArg.Items[1.000000];
     var arg12_ = tupledArg.Items[2.000000];
     var arg13_ = tupledArg.Items[3.000000];
-    _1564 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
-    (ctx.fillStyle) = _1497;
+    _1578 = FunSnake__defaultGradientLink$(ctx, arg10_, arg11_, arg12_, arg13_, colorStart, colorEnd);
+    (ctx.fillStyle) = _1511;
     null;
     (function (_tupledArg)
     {
@@ -216,8 +216,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       var arg03 = _tupledArg.Items[3.000000];
       return (ctx.fillRect(arg00, arg01, arg02, arg03));
     })(List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
-    var _1604;
-    var _1605;
+    var _1618;
+    var _1619;
     var action = (function (x)
     {
       var y = x.Items[1.000000];
@@ -228,32 +228,32 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       null;
       return (ctx.fillRect(_x, y, w, h));
     });
-    _1605 = (function (list)
+    _1619 = (function (list)
     {
       return List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(action, list);
     });
-    _1604 = _1605(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
+    _1618 = _1619(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
     (function (value)
     {
       var ignored0 = value;
-    })(_1604);
-    var _1684;
+    })(_1618);
+    var _1698;
     var _colorStart = "rgb(50,165,12)";
     var _colorEnd = "white";
     var _arg10_ = food.Items[0.000000];
     var _arg11_ = food.Items[1.000000];
     var _arg12_ = food.Items[2.000000];
     var _arg13_ = food.Items[3.000000];
-    _1684 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
-    var _1703;
+    _1698 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
+    var _1717;
     var _colorStart = "rgb(50,165,12)";
     var _colorEnd = "white";
     var _arg10_ = food.Items[0.000000];
     var _arg11_ = food.Items[1.000000];
     var _arg12_ = food.Items[2.000000];
     var _arg13_ = food.Items[3.000000];
-    _1703 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
-    (ctx.fillStyle) = _1684;
+    _1717 = FunSnake__defaultGradientLink$(ctx, _arg10_, _arg11_, _arg12_, _arg13_, _colorStart, _colorEnd);
+    (ctx.fillStyle) = _1698;
     null;
     return (function (value)
     {
@@ -291,8 +291,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       return FunSnake__jQuery$(selector);
     }), "canvas")[0]));
     var ctx = (canvas.getContext("2d"));
-    var _556;
-    var _557;
+    var _570;
+    var _571;
     var action = (function (x)
     {
       (ctx.fillStyle) = "black";
@@ -303,15 +303,15 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       var h = x.Items[3.000000];
       return (ctx.fillRect(_x, y, w, h));
     });
-    _557 = (function (list)
+    _571 = (function (list)
     {
       return List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(action, list);
     });
-    _556 = _557(wall);
+    _570 = _571(wall);
     return (function (value)
     {
       var ignored0 = value;
-    })(_556);
+    })(_570);
   });
   FunSnake__getColorLink$ = (function (ctx, link_0, link_1, link_2, link_3, collision, aliveColor, collisionColor)
   {
@@ -369,75 +369,75 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   });
   FunSnake__get_wallDown$ = (function ()
   {
-    var _510;
+    var _530;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(x, FunSnake__canvasSize.Items[1.000000], FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _510 = (function (list)
+    _530 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _510(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
+    return _530(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
   });
   FunSnake__get_wallLeft$ = (function ()
   {
-    var _166;
+    var _186;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(0.000000, x, FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _166 = (function (list)
+    _186 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _166(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
+    return _186(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
   });
   FunSnake__get_wallRight$ = (function ()
   {
-    var _486;
+    var _506;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(FunSnake__canvasSize.Items[0.000000], x, FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _486 = (function (list)
+    _506 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _486(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
+    return _506(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[1.000000])));
   });
   FunSnake__get_wallTop$ = (function ()
   {
-    var _461;
+    var _481;
     var mapping = (function (x)
     {
       return (new TupleDouble_Double_Double_Double(x, 0.000000, FunSnake__sizeLink, FunSnake__sizeLink));
     });
-    _461 = (function (list)
+    _481 = (function (list)
     {
       return List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_(mapping, list);
     });
-    return _461(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
+    return _481(Seq__ToList$Double_Double(Range__customStep$Double__Double_Double_Double(0.000000, FunSnake__sizeLink, FunSnake__canvasSize.Items[0.000000])));
   });
   FunSnake__hasCollision$ = (function (snake)
   {
-    var _1456;
-    var _1457;
+    var _1470;
+    var _1471;
     var e = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
-    _1457 = (function (el)
+    _1471 = (function (el)
     {
       return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(e, el);
     });
-    _1456 = _1457(FunSnake__wall);
-    return (_1456 || (function ()
+    _1470 = _1471(FunSnake__wall);
+    return (_1470 || (function ()
     {
-      var _1464;
+      var _1478;
       var _e = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
-      _1464 = (function (el)
+      _1478 = (function (el)
       {
         return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(_e, el);
       });
-      return _1464(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
+      return _1478(List__Tail$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake));
     })());
   });
   FunSnake__jQuery$ = (function (selector)
@@ -489,28 +489,32 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
         ;
       };
     })));
-    ((window.window).addEventListener("pointerdown", (function (e)
+    var canvas = LanguagePrimitives__UnboxGeneric$HTMLCanvasElement_HTMLCanvasElement_((FunSnake__op_Dynamic$JQuery_JQuery_((function (selector)
+    {
+      return FunSnake__jQuery$(selector);
+    }), "canvas")[0]));
+    (canvas.addEventListener("pointerdown", (function (e)
     {
       var ev = LanguagePrimitives__UnboxGeneric$MSPointerEvent_MSPointerEvent_(e);
-      FunSnake__touch = (new TupleDouble_Double((ev.pageX), (ev.pageY)));
+      FunSnake__touch = (new TupleDouble_Double(((ev.pageX) - (canvas.offsetLeft)), ((ev.pageY) - (canvas.offsetTop))));
     })));
     FunSnake__drawWall$(FunSnake__wall);
-    var _618;
-    var _619;
-    var _659;
-    _619 = FunSnake__newFood$(FunSnake__snake, _659);
-    var tupledArg = _619;
-    var _757;
-    var arg20_ = _757;
+    var _632;
+    var _633;
+    var _673;
+    _633 = FunSnake__newFood$(FunSnake__snake, _673);
+    var tupledArg = _633;
+    var _771;
+    var arg20_ = _771;
     var arg10_ = tupledArg.Items[0.000000];
     var arg11_ = tupledArg.Items[1.000000];
     var arg12_ = tupledArg.Items[2.000000];
     var arg13_ = tupledArg.Items[3.000000];
-    _618 = FunSnake__update$(FunSnake__snake, arg10_, arg11_, arg12_, arg13_, arg20_);
+    _632 = FunSnake__update$(FunSnake__snake, arg10_, arg11_, arg12_, arg13_, arg20_);
     return (function (value)
     {
       var ignored0 = value;
-    })(_618);
+    })(_632);
   });
   FunSnake__move$Double__Double_Double_Double = (function (xMove, yMove, snake, food_0, food_1, food_2, food_3)
   {
@@ -528,30 +532,30 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       }
       else
       {
-        var _1145;
-        var _1146;
-        var _1150;
-        var _1222;
-        var _1223;
+        var _1159;
+        var _1160;
+        var _1164;
+        var _1236;
+        var _1237;
         var count = 1;
-        _1223 = (function (source)
+        _1237 = (function (source)
         {
           return Seq__Skip$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(count, Seq__OfList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(source));
         });
-        _1222 = _1223((function (list)
+        _1236 = _1237((function (list)
         {
           return List__Reverse$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(list);
         })(snake));
-        _1150 = (function (source)
+        _1164 = (function (source)
         {
           return Seq__ToList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(source);
-        })(_1222);
-        _1146 = (function (list)
+        })(_1236);
+        _1160 = (function (list)
         {
           return List__Reverse$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(list);
-        })(_1150);
-        _1145 = _1146;
-        return List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(newHead, _1145);
+        })(_1164);
+        _1159 = _1160;
+        return List__CreateCons$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(newHead, _1159);
       };
     }
     else
@@ -609,8 +613,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
       return FunSnake__Contains$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(randomFood, el);
     })(snake)) 
     {
-      var _756;
-      return FunSnake__newFood$(snake, _756);
+      var _770;
+      return FunSnake__newFood$(snake, _770);
     }
     else
     {
@@ -627,64 +631,64 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     var patternInput = List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(snake);
     var sy = patternInput.Items[1.000000];
     var sx = patternInput.Items[0.000000];
-    var _793;
+    var _807;
     if ((FunSnake__touch.Items[0.000000] == -1.000000)) 
     {
       if ((FunSnake__touch.Items[1.000000] == -1.000000)) 
       {
-        _793 = FunSnake__direction;
+        _807 = FunSnake__direction;
       }
       else
       {
-        var _802;
+        var _816;
         var y = FunSnake__touch.Items[1.000000];
         var x = FunSnake__touch.Items[0.000000];
-        _802 = ((y < sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
-        if (_802) 
+        _816 = ((y < sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
+        if (_816) 
         {
           var _x = FunSnake__touch.Items[0.000000];
           var _y = FunSnake__touch.Items[1.000000];
-          _793 = (new Direction__Up());
+          _807 = (new Direction__Up());
         }
         else
         {
-          var _834;
+          var _848;
           var __y = FunSnake__touch.Items[1.000000];
           var __x = FunSnake__touch.Items[0.000000];
-          _834 = ((__y > sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
-          if (_834) 
+          _848 = ((__y > sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
+          if (_848) 
           {
             var ___y = FunSnake__touch.Items[1.000000];
             var ___x = FunSnake__touch.Items[0.000000];
-            _793 = (new Direction__Down());
+            _807 = (new Direction__Down());
           }
           else
           {
-            var _866;
+            var _880;
             var ____y = FunSnake__touch.Items[1.000000];
             var ____x = FunSnake__touch.Items[0.000000];
-            _866 = ((____x < sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
-            if (_866) 
+            _880 = ((____x < sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
+            if (_880) 
             {
               var _____y = FunSnake__touch.Items[1.000000];
               var _____x = FunSnake__touch.Items[0.000000];
-              _793 = (new Direction__Left());
+              _807 = (new Direction__Left());
             }
             else
             {
-              var _898;
+              var _912;
               var ______y = FunSnake__touch.Items[1.000000];
               var ______x = FunSnake__touch.Items[0.000000];
-              _898 = ((______x > sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
-              if (_898) 
+              _912 = ((______x > sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
+              if (_912) 
               {
                 var _______y = FunSnake__touch.Items[1.000000];
                 var _______x = FunSnake__touch.Items[0.000000];
-                _793 = (new Direction__Right());
+                _807 = (new Direction__Right());
               }
               else
               {
-                _793 = FunSnake__direction;
+                _807 = FunSnake__direction;
               };
             };
           };
@@ -693,70 +697,70 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     }
     else
     {
-      var _930;
+      var _944;
       var ________y = FunSnake__touch.Items[1.000000];
       var ________x = FunSnake__touch.Items[0.000000];
-      _930 = ((________y < sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
-      if (_930) 
+      _944 = ((________y < sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
+      if (_944) 
       {
         var _________x = FunSnake__touch.Items[0.000000];
         var _________y = FunSnake__touch.Items[1.000000];
-        _793 = (new Direction__Up());
+        _807 = (new Direction__Up());
       }
       else
       {
-        var _962;
+        var _976;
         var __________y = FunSnake__touch.Items[1.000000];
         var __________x = FunSnake__touch.Items[0.000000];
-        _962 = ((__________y > sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
-        if (_962) 
+        _976 = ((__________y > sy) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Left())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Right())) == 0)));
+        if (_976) 
         {
           var ___________y = FunSnake__touch.Items[1.000000];
           var ___________x = FunSnake__touch.Items[0.000000];
-          _793 = (new Direction__Down());
+          _807 = (new Direction__Down());
         }
         else
         {
-          var _994;
+          var _1008;
           var ____________y = FunSnake__touch.Items[1.000000];
           var ____________x = FunSnake__touch.Items[0.000000];
-          _994 = ((____________x < sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
-          if (_994) 
+          _1008 = ((____________x < sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
+          if (_1008) 
           {
             var _____________y = FunSnake__touch.Items[1.000000];
             var _____________x = FunSnake__touch.Items[0.000000];
-            _793 = (new Direction__Left());
+            _807 = (new Direction__Left());
           }
           else
           {
-            var _1026;
+            var _1040;
             var ______________y = FunSnake__touch.Items[1.000000];
             var ______________x = FunSnake__touch.Items[0.000000];
-            _1026 = ((______________x > sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
-            if (_1026) 
+            _1040 = ((______________x > sx) && (((Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__None())) == 0) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Up())) == 0)) || (Direction__GeneratedCompareTo(FunSnake__direction)((new Direction__Down())) == 0)));
+            if (_1040) 
             {
               var _______________y = FunSnake__touch.Items[1.000000];
               var _______________x = FunSnake__touch.Items[0.000000];
-              _793 = (new Direction__Right());
+              _807 = (new Direction__Right());
             }
             else
             {
-              _793 = FunSnake__direction;
+              _807 = FunSnake__direction;
             };
           };
         };
       };
     };
-    FunSnake__direction = _793;
+    FunSnake__direction = _807;
     FunSnake__touch = (new TupleDouble_Double(-1.000000, -1.000000));
-    var _1061;
+    var _1075;
     if ((FunSnake__direction.Tag == 0.000000)) 
     {
       var arg10_ = food.Items[0.000000];
       var arg11_ = food.Items[1.000000];
       var arg12_ = food.Items[2.000000];
       var arg13_ = food.Items[3.000000];
-      _1061 = FunSnake__moveLeft$Double__Double_Double_Double(snake, arg10_, arg11_, arg12_, arg13_);
+      _1075 = FunSnake__moveLeft$Double__Double_Double_Double(snake, arg10_, arg11_, arg12_, arg13_);
     }
     else
     {
@@ -766,7 +770,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
         var _arg11_ = food.Items[1.000000];
         var _arg12_ = food.Items[2.000000];
         var _arg13_ = food.Items[3.000000];
-        _1061 = FunSnake__moveUp$Double__Double_Double_Double(snake, _arg10_, _arg11_, _arg12_, _arg13_);
+        _1075 = FunSnake__moveUp$Double__Double_Double_Double(snake, _arg10_, _arg11_, _arg12_, _arg13_);
       }
       else
       {
@@ -776,13 +780,13 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           var __arg11_ = food.Items[1.000000];
           var __arg12_ = food.Items[2.000000];
           var __arg13_ = food.Items[3.000000];
-          _1061 = FunSnake__moveDown$Double__Double_Double_Double(snake, __arg10_, __arg11_, __arg12_, __arg13_);
+          _1075 = FunSnake__moveDown$Double__Double_Double_Double(snake, __arg10_, __arg11_, __arg12_, __arg13_);
         }
         else
         {
           if ((FunSnake__direction.Tag == 4.000000)) 
           {
-            _1061 = snake;
+            _1075 = snake;
           }
           else
           {
@@ -790,23 +794,23 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
             var ___arg11_ = food.Items[1.000000];
             var ___arg12_ = food.Items[2.000000];
             var ___arg13_ = food.Items[3.000000];
-            _1061 = FunSnake__moveRight$Double__Double_Double_Double(snake, ___arg10_, ___arg11_, ___arg12_, ___arg13_);
+            _1075 = FunSnake__moveRight$Double__Double_Double_Double(snake, ___arg10_, ___arg11_, ___arg12_, ___arg13_);
           };
         };
       };
     };
-    var _snake = _1061;
-    var _1442;
+    var _snake = _1075;
+    var _1456;
     if ((Tuple_4_Double__Double__Double__Double__GeneratedCompareToDouble_Double_Double_Double(List__Head$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(_snake))(food) == 0)) 
     {
-      var _1453;
-      _1442 = FunSnake__newFood$(_snake, _1453);
+      var _1467;
+      _1456 = FunSnake__newFood$(_snake, _1467);
     }
     else
     {
-      _1442 = food;
+      _1456 = food;
     };
-    var _food = _1442;
+    var _food = _1456;
     var collision = FunSnake__hasCollision$(_snake);
     FunSnake__draw$(_snake, _food, collision);
     FunSnake__moveDone = true;
@@ -818,21 +822,21 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     }
     else
     {
-      var _1781;
-      var _1782;
+      var _1795;
+      var _1796;
       var ____arg10_ = _food.Items[0.000000];
       var ____arg11_ = _food.Items[1.000000];
       var ____arg12_ = _food.Items[2.000000];
       var ____arg13_ = _food.Items[3.000000];
-      _1782 = (function (arg20_)
+      _1796 = (function (arg20_)
       {
         return FunSnake__update$(_snake, ____arg10_, ____arg11_, ____arg12_, ____arg13_, arg20_);
       });
-      _1781 = (window.setTimeout(_1782, (1000.000000 / 10.000000)));
+      _1795 = (window.setTimeout(_1796, (1000.000000 / 10.000000)));
       (function (value)
       {
         var ignored0 = value;
-      })(_1781);
+      })(_1795);
       return 1;
     };
   });
@@ -1019,14 +1023,14 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   });
   List__Iterate$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (f, xs)
   {
-    var _582;
+    var _596;
     return List__Fold$Tuple_4_Double__Double__Double__Double__Unit_Tuple_4_Double__Double__Double__Double__Unit_((function (unitVar0)
     {
       return (function (x)
       {
         return f(x);
       });
-    }), _582, xs);
+    }), _596, xs);
   });
   List__Map$Double__Tuple_4_Double__Double__Double__Double_Double_Tuple_4_Double__Double__Double__Double_ = (function (f, xs)
   {
@@ -1102,7 +1106,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   Range__customStep$Double__Double_Double_Double = (function (first, stepping, last)
   {
     var zero = GenericConstants__Zero$Double_Double();
-    var _267;
+    var _287;
     var f = (function (x)
     {
       if ((((stepping > zero) && (x <= last)) || ((stepping < zero) && (x >= last)))) 
@@ -1114,11 +1118,11 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
         return {Tag: 0.000000};
       };
     });
-    _267 = (function (seed)
+    _287 = (function (seed)
     {
       return Seq__Unfold$Double__Double_Double_Double(f, seed);
     });
-    return _267(first);
+    return _287(first);
   });
   Seq__Enumerator$Double_Double = (function (xs)
   {
@@ -1196,8 +1200,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     {
       return (function (__, unitVar1)
       {
-        var _346;
-        return __.factory(_346);
+        var _366;
+        return __.factory(_366);
       })(impl, unitVar1);
     })};
   });
@@ -1209,14 +1213,14 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
     {
       return (function (__, unitVar1)
       {
-        var _1312;
-        return __.factory(_1312);
+        var _1326;
+        return __.factory(_1326);
       })(impl, unitVar1);
     })};
   });
   Seq__OfList$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (xs)
   {
-    var _1230;
+    var _1244;
     var f = (function (_arg1)
     {
       if ((_arg1.Tag == 1.000000)) 
@@ -1230,18 +1234,18 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
         return {Tag: 0.000000};
       };
     });
-    _1230 = (function (seed)
+    _1244 = (function (seed)
     {
       return Seq__Unfold$FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double__Tuple_4_Double__Double__Double__Double_(f, seed);
     });
-    return _1230(xs);
+    return _1244(xs);
   });
   Seq__Skip$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_ = (function (n, xs)
   {
     return Seq__FromFactory$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_((function (unitVar0)
     {
       var _enum = Seq__Enumerator$Tuple_4_Double__Double__Double__Double_Tuple_4_Double__Double__Double__Double_(xs);
-      for (var _1326 = 1; _1326 <= n; _1326++)
+      for (var _1340 = 1; _1340 <= n; _1340++)
       {
         (function (i)
         {
@@ -1249,7 +1253,7 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           {
             var ignored0 = value;
           })(_enum.MoveNext());
-        })(_1326);
+        })(_1340);
       };
       return _enum;
     }));
@@ -1323,8 +1327,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           });
           return (Option__IsSome$Double_Double(__.acc) && (function ()
           {
-            var _325;
-            return next(_325);
+            var _345;
+            return next(_345);
           })());
         })(impl, unitVar1);
       }), Reset: (function (unitVar1)
@@ -1380,8 +1384,8 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
           });
           return (Option__IsSome$FSharpList_1_Tuple_4_Double__Double__Double__Double_FSharpList_1_Tuple_4_Double__Double__Double__Double_(__.acc) && (function ()
           {
-            var _1291;
-            return next(_1291);
+            var _1305;
+            return next(_1305);
           })());
         })(impl, unitVar1);
       }), Reset: (function (unitVar1)
@@ -1499,4 +1503,4 @@ var list_1_Tuple_4_Double__Double__Double__Double__NilTuple_4_Double__Double__Do
   FunSnake__wallDown = FunSnake__get_wallDown$();
   FunSnake__wall = FunSnake__get_wall$();
   FunSnake__snake = FunSnake__get_snake$();
-  //FunSnake__main$()
+  FunSnake__main$()
