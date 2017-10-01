@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>FunDistance</title>
+    <title>FunSnake</title>
     <script src="Scripts/jquery-2.1.1.min.js"></script>
     <script src="FunSnake.js" type="text/javascript"></script>
     <script>
@@ -13,13 +13,12 @@
             document.getElementById("canvas").addEventListener("touchstart", (function (e) {
                 FunSnake__touch = (new TupleDouble_Double(e.touches[0].pageX - e.target.offsetLeft, e.touches[0].pageY - e.target.offsetTop));
             }));
-
-
         });
+
+
     </script>
 </head>
 <body>
     <canvas id="canvas" height="400" width=400></canvas>
 </body>
 </html>
-

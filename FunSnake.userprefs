@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{D2463E9B-0EF1-4DC1-8B8D-3DD344F4E6D6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FunSnake/funsnake.html">
+    <Files>
+      <File FileName="FunSnake/FunSnake.fs" Line="184" Column="28" />
+      <File FileName="FunSnake/funsnake.html" Line="15" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.FunSnake PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
